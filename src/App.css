@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-color: lightsalmon;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +13,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+button{
+  width: 120px;
+  height:40px;
+  border-radius: .5em;
+  cursor: pointer;
 }
 
 .App-header {
